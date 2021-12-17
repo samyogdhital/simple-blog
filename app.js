@@ -2,7 +2,6 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const ejs = require("ejs");
 const kebabCase = require("lodash/kebabCase");
 
 const port = process.env.PORT || 3000;
@@ -17,6 +16,7 @@ const contactContent =
 const app = express();
 const posts = [];
 
+app.set("views", "./views");
 app.set("view engine", "ejs");
 
 app.use(
