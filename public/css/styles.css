@@ -1,11 +1,46 @@
+.container {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+h1 + p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+p {
+  text-align: center;
+}
+p > a {
+  display: block;
+}
+.container-top {
+  text-align: center;
+  align-items: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.container-top > ul {
+  margin-right: 35px;
+}
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
 }
 
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -38,4 +73,20 @@
 
 .container {
   width: 100%;
+}
+.home-title {
+  text-align: center;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-group {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+form > button {
+  margin-left: 20px;
 }
